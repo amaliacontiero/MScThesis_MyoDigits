@@ -1,9 +1,6 @@
 # MyoDigits
 
 Code for the MSc thesis *Continuous Hand Pose Regression from Wearable sEMG*.
-The project estimates finger-joint angles from forearm sEMG and compares a
-Transformer (MyoDigits-TX), a bidirectional GRU (MyoDigits-GRU), and a
-per-window model (MyoDigits-PW).
 
 ## Code
 
