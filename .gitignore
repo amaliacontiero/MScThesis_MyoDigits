@@ -1,0 +1,44 @@
+# data: never commit recordings or derived participant tensors.
+# Anchored to the repository root: an unanchored "data/" also matched
+# src/myodigits/data/, which silently kept the dataset module out of the repo.
+/data/
+*.npz
+*.npy
+*.h5
+
+# model weights and run artefacts
+*.pt
+*.pth
+*.ckpt
+checkpoints/
+experiments/
+runs/
+
+# media
+*.mp4
+*.avi
+*.gif
+*.pptx
+
+# python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# editors and os
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# scratch
+*.bak
+*.bak_*
+*.orig
+*.log
+.orch_state
+.pytest_cache/

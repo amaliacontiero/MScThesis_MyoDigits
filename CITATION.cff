@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: >-
+  If you refer to this work, please cite the MSc thesis it accompanies.
+title: "MyoDigits: continuous finger joint angle regression from forearm sEMG"
+type: software
+authors:
+  - family-names: "Contiero Syropoulou"
+    given-names: "Amalia"
+    affiliation: "University of West Attica"
+version: "0.1.0"
+preferred-citation:
+  type: thesis
+  thesis-type: "MSc thesis"
+  title: "Continuous Hand Pose Regression from Wearable sEMG"
+  authors:
+    - family-names: "Contiero Syropoulou"
+      given-names: "Amalia"
+  institution:
+    name: "University of West Attica"
+  department: "MSc in Artificial Intelligence and Deep Learning"
+  year: 2026

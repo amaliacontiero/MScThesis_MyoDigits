@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "myodigits"
+version = "0.1.0"
+description = "Continuous finger joint angle regression from forearm surface electromyography"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{ name = "Amalia Contiero Syropoulou" }]
+
+# Exact versions used for the thesis are pinned in requirements.txt.
+dependencies = [
+    "torch",
+    "numpy",
+    "scipy",
+    "matplotlib",
+    "nbformat",
+]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-p no:cacheprovider"

@@ -1,0 +1,12 @@
+# Versions used to produce the reported results (Python 3.11.14, Linux under WSL2).
+# The runs used the CUDA 12.8 build of PyTorch, reported as torch 2.10.0+cu128 with
+# cuDNN 9.10.2. Install the PyTorch build that matches your platform first, following
+# the instructions on pytorch.org, then install the rest of this file.
+torch==2.10.0
+numpy==2.3.5
+scipy==1.17.0
+matplotlib==3.10.8
+nbformat==5.10.4
+pandas==3.0.0
+scikit-learn==1.8.0
+pillow==11.3.0
